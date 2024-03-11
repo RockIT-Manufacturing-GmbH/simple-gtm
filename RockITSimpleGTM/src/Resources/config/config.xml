@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/shopware/platform/trunk/src/Core/System/SystemConfig/Schema/config.xsd">
+
+    <card>
+        <title>Google Tag Manager Settings</title>
+        <title lang="de-DE">Google Tag Manager Einstellungen</title>
+
+        <input-field>
+            <name>containerId</name>
+            <label>Container ID</label>
+            <placeholder>GTM-XXXXX</placeholder>
+            <placeholder lang="de-DE">GTM-XXXXX</placeholder>
+            <helpText>Enter your Google Tag Manager Container ID</helpText>
+            <helpText lang="de-DE">Bitte trage deine Google Tag Manager Container ID ein</helpText>
+        </input-field>
+    </card>
+</config>

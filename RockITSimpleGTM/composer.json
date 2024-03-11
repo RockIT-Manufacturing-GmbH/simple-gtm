@@ -1,0 +1,40 @@
+{
+  "name": "rockit/simple-gtm",
+  "description": "Simple Google Tag Manager Integration",
+  "type": "shopware-platform-plugin",
+  "version": "1.0.0",
+  "authors": [
+    {
+      "name": "RockIT Manufacturing GmbH"
+    }
+  ],
+  "require": {
+    "shopware/core": "~6.4"
+  },
+  "license": "Apache-2.0",
+  "autoload": {
+    "psr-4": {
+      "RockIT\\SimpleGTM\\": "src/"
+    }
+  },
+  "extra": {
+    "shopware-plugin-class": "RockIT\\SimpleGTM\\RockITSimpleGTM",
+    "copyright": "RockIT Manufacturing GmbH",
+    "label": {
+      "de-DE": "Simple GTM",
+      "en-GB": "Simple GTM"
+    },
+    "description": {
+      "de-DE": "Simple Google Tag Manager Integration",
+      "en-GB": "Simple Google Tag Manager Integration"
+    },
+    "manufacturerLink": {
+      "de-DE": "https://www.rocki-manufacturing.com",
+      "en-GB": "https://www.rocki-manufacturing.com"
+    },
+    "supportLink": {
+      "de-DE": "https://www.rocki-manufacturing.com",
+      "en-GB": "https://www.rocki-manufacturing.com"
+    }
+  }
+}
